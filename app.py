@@ -47,6 +47,7 @@ canvas_result = st_canvas(
     width=280,
     height=280,
     drawing_mode="freedraw",
+    return_image_data=True,   # IMPORTANT
     key="canvas",
 )
 
